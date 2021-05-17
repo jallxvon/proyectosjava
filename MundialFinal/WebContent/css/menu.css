@@ -1,0 +1,51 @@
+			ul, ol {
+			
+				list-style:none;
+				z-index: 3;
+			}
+
+			.nav > li {
+			    
+				float:left;
+			}
+			
+			.nav li a {
+				background-image: url("fondo.png");
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+				width: 10%;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+				width: 70%;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+				width: 100%;
+			}
+			.cabecera{
+			    
+				width:100%;
+				background-image: url("fondo.png");
+				position: absolute;
+				margin-top: 100px;
+			}

@@ -1,0 +1,55 @@
+body
+{
+	width: 100%;
+	margin: 0;
+}
+
+header
+{
+	width: 100%;
+	height: 50%;
+	background-image: url("../imagenes/oriental-rojo.png");
+	background-repeat: repeat-x;
+	color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+h1{
+	margin: 0;
+}
+
+footer{
+	background-image: url("../imagenes/oriental-rojo.png");
+	background-repeat: repeat-x;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0;
+}
+
+h2, h3{
+	text-align: center;
+}
